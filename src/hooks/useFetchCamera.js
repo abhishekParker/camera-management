@@ -9,12 +9,12 @@ export const useFetchCamera = () => {
   }, []);
 
   const fetchCameras = async () => {
+    setData(cameras);
     try {
       const response = await fetch(
         "https://api-app-staging.wobot.ai/app/v1/fetch/cameras"
       );
       const data = await response.json();
-      setData(cameras);
     } catch (error) {
       console.error("Error fetching cameras:", error);
     }

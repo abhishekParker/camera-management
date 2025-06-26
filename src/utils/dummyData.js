@@ -109,4 +109,15 @@ export const cameras = [
     status: "Active",
     hasWarning: false,
   },
+  {
+    id: 11,
+    name: "Camera 10",
+    email: "sherwinwilliams@wobot.ai",
+    health: { cloud: 88, disk: 85 },
+    location: "Boston, MA",
+    recorder: "N/A",
+    tasks: "2 Tasks",
+    status: "Active",
+    hasWarning: false,
+  },
 ];

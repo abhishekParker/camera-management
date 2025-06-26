@@ -36,7 +36,7 @@ const Filters = (props) => {
         >
           <option value="">Status</option>
           <option value="active">Active</option>
-          <option value="paused">Inactive</option>
+          <option value="inactive">Inactive</option>
         </select>
         <ChevronDown className="absolute right-1 top-1/2 transform -translate-1/2 text-gray-400 w-4 h-4 pointer-events-none" />
       </div>
